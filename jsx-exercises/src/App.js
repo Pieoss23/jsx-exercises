@@ -1,9 +1,9 @@
 import React from "react";
-import Hello from './Hello';
+import HelloName from "./HelloName";
 
 class App extends React.Component {
     render() {
-        return <Hello />
+        return <HelloName name="Pietro" />
     }
 } 
 
