@@ -1,10 +1,13 @@
 import ReactDOM  from 'react-dom';
-import App from './App';
 
 
 const root = ReactDOM.createRoot(document.querySelector('#root'));
-
-root.render(<App />);
+function somma(x,y) {
+    return <h2>La somma è: {x + y} </h2>
+}
+root.render(
+    somma(10, 8)
+);
 
 
 
